@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <head>
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="assets/javascript/game.js" language="javascript" type="text/javascript"></script>
+</head>
+<script>
+  $( document ).ready(function() {//make sure DOM  is ready
+    
+  });//end make sure DOM  is ready
+</script>
+<body>
+  
+    <header id="masthead">
+      <div class="container">
+        <div id="countDown"></div>
+      </div>
+    </header>
+
+    <div id="main-container" class="container">
+      
+      <section class="sidebar">
+        <h1>Results</h1>
+        <div id="score">
+          <p >Correct: <span id="correct"><span>0</p>
+          <p >Incorrect: <span id= "wrong"><span>0</p>
+          <p >Not Answered: <span id= "noAnswers"><span>0</p>
+        </div>
+      </section>
+      <section class="main-section">
+        
+        <h1>Trivial Trivia</h1>
+        
+        <div id="questionsAnswers">
+              <div id="questions">
+                <h2 id="currentQuestion"></h2>
+              </div>
+              <table >
+              <tr>
+                <td id="RDO0" style= "min-width: 100px; max-width: 250px; padding-left:10px; padding-right:10px;">
+                  
+                </td>
+                <td id="RDO1" style= "min-width: 100px; max-width: 250px; padding-left:10px; padding-right:10px;">
+                  
+                </td>
+                </tr>
+                <tr>
+                <td id="RDO2" style= "min-width: 100px; max-width: 250px; padding-left:10px; padding-right:10px;">
+                
+                </td>
+                <td id="RDO3" style= "min-width: 100px; max-width: 250px; padding-left:10px;padding-right:10px;">
+                  
+                </td>
+              </tr>
+              </table>
+          </div>
+              <div >
+                <h3 >The Correct Answer is: </h3>
+                <p id="correctAnswers" ></p>
+              </div>
+              
+
+              
+      </section>
+    </div>
+
+  
+</body>
+</html>
